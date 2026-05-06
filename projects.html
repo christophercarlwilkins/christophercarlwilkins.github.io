@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Christopher Carl Wilkins</title>
+
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background: #f8f5f1;
+      color: #2f2f2f;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      font-weight: 400;
+    }
+
+    .subtitle {
+      color: #777;
+      margin-bottom: 60px;
+      font-size: 1.1rem;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 32px;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+      transition: transform 0.2s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .project-content {
+      padding: 24px;
+    }
+
+    .project-meta {
+      font-size: 0.85rem;
+      color: #8b7355;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+
+    .project-content h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+
+    .project-content p {
+      margin-bottom: 0;
+      color: #555;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 60px;
+      text-decoration: none;
+      color: #8b7355;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Projects & Research</h1>
+
+    <p class="subtitle">
+      Research, policy analysis, urban planning, democratic development,
+      climate adaptation, data visualization, and public-interest technology.
+    </p>
+
+    <div class="project-grid">
+
+      <!-- PROJECT CONNECT -->
+      <a class="project-card" href="https://r6g1ou-christopher0c0-wilkins.shinyapps.io/project-connect-thln/" target="_blank">
+
+        <img src="project-connect-thln.jpeg" alt="Project CONNECT – THLN">
+
+        <div class="project-content">
+          <div class="project-meta">
+            Data & Policy · 2026
+          </div>
+
+          <h3>Project CONNECT – THLN</h3>
+
+          <p>
+            Interactive R Shiny dashboard analyzing county-level animal cruelty
+            enforcement, reporting transparency, and legal outcomes across Texas.
+          </p>
+        </div>
+      </a>
+
+
+      <!-- SAINT-LOUIS -->
+      <a class="project-card" href="saint-louis/index.html">
+
+        <img src="https://images.unsplash.com/photo-1524499982521-1ffd58dd89ea?q=80&w=1600&auto=format&fit=crop" alt="Saint-Louis Senegal Research">
+
+        <div class="project-content">
+          <div class="project-meta">
+            Comparative Development · Senegal
+          </div>
+
+          <h3>Service Delivery & Democratic Trust</h3>
+
+          <p>
+            Comparative research project examining institutional trust,
+            climate displacement, and public service delivery in Senegal.
+          </p>
+        </div>
+      </a>
+
+
+      <!-- SENTIMENT ANALYSIS -->
+      <a class="project-card" href="#">
+
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop" alt="Sentiment Analysis">
+
+        <div class="project-content">
+          <div class="project-meta">
+            Political Data Analysis
+          </div>
+
+          <h3>Texas Voucher Bill Sentiment Analysis</h3>
+
+          <p>
+            Media and social sentiment analysis focused on Texas HB3/SB2 and
+            evolving public opinion around school voucher policy.
+          </p>
+        </div>
+      </a>
+
+
+      <!-- RESEARCH PAPER -->
+      <a class="project-card" href="YOUR-PAPER-LINK-HERE.pdf" target="_blank">
+
+        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1600&auto=format&fit=crop" alt="Research Paper">
+
+        <div class="project-content">
+          <div class="project-meta">
+            Published Research
+          </div>
+
+          <h3>Your Published Research Paper</h3>
+
+          <p>
+            Add your publication abstract, journal name, collaborators,
+            and publication year here.
+          </p>
+        </div>
+      </a>
+
+    </div>
+
+
+    <a class="back-link" href="index.html">
+      ← Back to Homepage
+    </a>
+
+  </div>
+
+</body>
+</html>
